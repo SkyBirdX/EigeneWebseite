@@ -18,8 +18,7 @@ function Home() {
       <h1 className="gradient-text big">John Broder</h1>
       <h2 className="glow-text">Fullstack Entwickler & Designer</h2>
       <p className="intro-text">
-        Willkommen auf meiner modernen Portfolio-Webseite!<br />
-        Ich liebe es, kreative und technische Lösungen zu verbinden.
+        Willkommen auf meiner Portfolio Webseite!<br />
       </p>
       <div className="skills-badges">
         {skills.map((skill) => (
