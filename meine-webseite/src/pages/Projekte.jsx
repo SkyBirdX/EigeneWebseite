@@ -1,6 +1,7 @@
 import ProjektCard from "../components/ProjektCard";
 import { FaLightbulb } from "react-icons/fa";
 import "./Projekte.css";
+import './Home.css';
 
 const projekte = [
   {
@@ -18,7 +19,7 @@ export default function Projekte() {
     <div className="projekte-modern">
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
         <img
-          src="/skybirdx.github.io/projekt.png"
+          src="/projekt.png"
           alt="Projekt Vorschau"
           style={{
             width: '100%',
