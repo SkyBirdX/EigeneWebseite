@@ -11,9 +11,9 @@
 .profilbild-wrapper {
   background: linear-gradient(135deg, #6366f1 0%, #22d3ee 100%);
   border-radius: 50%;
-  padding: 6px;
+  padding: 14px;
   box-shadow: 0 4px 32px rgba(99,102,241,0.25);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.8rem;
   transition: box-shadow 0.3s;
 }
 .profilbild-wrapper:hover {
@@ -21,12 +21,51 @@
 }
 
 .profilbild-modern {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #fff3;
-  box-shadow: 0 2px 16px rgba(99,102,241,0.15);
+  border: 6px solid #fff3;
+  box-shadow: 0 2px 24px rgba(99,102,241,0.18);
+}
+
+.profilbild-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.8rem;
+  box-shadow: 0 8px 40px 0 rgba(99,102,241,0.18), 0 1.5px 8px 0 rgba(34,211,238,0.10);
+  padding: 14px;
+}
+
+.profilbild-glow {
+  box-shadow: 0 0 32px 6px #22d3ee55, 0 2px 16px rgba(99,102,241,0.15);
+  border: 4px solid #fff6;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.profilbild-hero:hover .profilbild-glow {
+  box-shadow: 0 0 48px 12px #6366f1aa, 0 4px 32px rgba(34,211,238,0.18);
+  border: 4px solid #22d3ee99;
+}
+
+.profilbild-name-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(34,211,238,0.85);
+  color: #fff;
+  padding: 0.35rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 12px rgba(99,102,241,0.13);
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 2px 8px #6366f1aa;
 }
 
  /*Text*/ 

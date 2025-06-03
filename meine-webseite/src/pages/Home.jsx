@@ -12,10 +12,8 @@ const skills = [
 function Home() {
   return (
     <div className="home-modern">
-      <div className="profilbild-wrapper">
-      <img src="/image.jpg" alt="Mein Profilbild" className="profilbild-modern" />
-
-
+      <div className="profilbild-wrapper profilbild-hero">
+        <img src="/image.png" alt="Mein Profilbild" className="profilbild-modern profilbild-glow" />
       </div>
       <h1 className="gradient-text big">John Broder</h1>
       <h2 className="glow-text">Fullstack Entwickler & Designer</h2>
