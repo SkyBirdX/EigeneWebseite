@@ -1,0 +1,109 @@
+.lebenslauf-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 3rem 1rem;
+  background: rgba(255,255,255,0.10);
+  border-radius: 1.7rem;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.13);
+  backdrop-filter: blur(10px);
+}
+
+.lebenslauf-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.lebenslauf-grid {
+  display: flex;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.lebenslauf-info {
+  flex: 2;
+  min-width: 280px;
+  background: rgba(255,255,255,0.13);
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(99,102,241,0.08);
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border: 1.5px solid rgba(99,102,241,0.10);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.lebenslauf-info section {
+  background: rgba(99,102,241,0.07);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem 1.3rem;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.07);
+}
+
+.lebenslauf-info h2 {
+  color: var(--accent-color);
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.lebenslauf-skills {
+  flex: 1.2;
+  min-width: 240px;
+  background: rgba(34,211,238,0.10);
+  border-radius: 1.2rem;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 4px 16px rgba(34,211,238,0.13);
+  margin-top: 0.5rem;
+  height: auto;
+  border: 1.5px solid rgba(34,211,238,0.13);
+  align-self: stretch;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.lebenslauf-skills h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.skill {
+  margin-bottom: 1.2rem;
+}
+.skill span {
+  font-weight: 500;
+  color: var(--text-color);
+}
+.skill-bar {
+  width: 100%;
+  height: 13px;
+  background: rgba(99,102,241,0.13);
+  border-radius: 8px;
+  margin-top: 0.3rem;
+  overflow: hidden;
+}
+.skill-level {
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--primary-color) 60%, var(--accent-color) 100%);
+  box-shadow: 0 1px 8px rgba(99,102,241,0.13);
+  transition: width 1.2s cubic-bezier(.77,0,.18,1);
+}
+
+@media (max-width: 900px) {
+  .lebenslauf-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .lebenslauf-skills {
+    margin-top: 0;
+    box-shadow: 0 2px 8px rgba(34,211,238,0.08);
+  }
+}
