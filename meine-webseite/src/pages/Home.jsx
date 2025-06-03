@@ -1,6 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaDatabase } from 'react-icons/fa';
 import './Home.css';
-import Lebenslauf from "./Lebenslauf";
 
 const skills = [
   { name: 'React', icon: <FaReact color="#61dafb" /> },
@@ -14,7 +13,9 @@ function Home() {
   return (
     <div className="home-modern">
       <div className="profilbild-wrapper">
-        <img src="/skybirdx.github.io/image.jpg" alt="Profilbild" className="profilbild-modern" />
+      <img src="/image.jpg" alt="Mein Profilbild" className="profilbild-modern" />
+
+
       </div>
       <h1 className="gradient-text big">John Broder</h1>
       <h2 className="glow-text">Fullstack Entwickler & Designer</h2>
