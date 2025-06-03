@@ -9,4 +9,3 @@ export default function ProjektCard({ titel, beschreibung, link }) {
     </div>
   );
 }
-x
