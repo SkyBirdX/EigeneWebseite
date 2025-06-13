@@ -11,7 +11,7 @@ export default function Lebenslauf() {
             <p><strong>E-Mail:</strong> broderjohn5@gmail.com</p>
             <p><strong>Geburtsdatum:</strong> 23.08.2006</p>
             <p><strong>Telefon:</strong> +41 76 831 31 60</p>
-            <p><strong>Adresse:</strong> Hübelacker 31, 5734 Reinach AG</p>
+            <p><strong>Adresse:</strong> 5734 Reinach AG</p>
             <p><strong>Staatsbürgerschaft:</strong> Schweiz</p>
           </section>
 
